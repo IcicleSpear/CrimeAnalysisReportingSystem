@@ -39,7 +39,10 @@ CrimeAnalysisSystem/CrimeAnalysisSystem/
 │   ├── Incident.java
 │   ├── Officer.java
 │   ├── Victim.java
-│   └── ... (Other entity classes)
+│   ├── Evidence.java
+│   ├── Suspect.java
+│   ├── LawEnforcementAgency.java
+|   └── Report.java
 │
 ├── dao/
 │   ├── CrimeAnalysisService.java
@@ -48,7 +51,8 @@ CrimeAnalysisSystem/CrimeAnalysisSystem/
 ├── exception/
 │   ├── OfficerNotFoundException.java
 │   ├── IncidentNumberNotFoundException.java
-│   └── ... (Other custom exceptions)
+│   ├── VictimNotFoundException.java
+│   └── SuspectNotFoundException.java
 │
 ├── util/
 │   ├── DBConnUtil.java
@@ -59,8 +63,6 @@ CrimeAnalysisSystem/CrimeAnalysisSystem/
 │
 ├── test/
 │   └── jtesting.java
-│
-├── README.md
 └── db.properties
 
 ```
